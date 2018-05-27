@@ -25,11 +25,11 @@
 @property (weak) IBOutlet NSBox *frame08;
 @property (weak) IBOutlet NSLevelIndicator *barVol;
 @property (weak) IBOutlet NSLevelIndicator *barSpeed;
-@property (weak) IBOutlet NSImageView *imgLeft;
-@property (weak) IBOutlet NSImageCell *imgLeftCell;
 @property (weak) IBOutlet NSImageView *imgRight;
 @property (weak) IBOutlet NSImageCell *imgRightCell;
 @property (weak) IBOutlet NSButtonCell *but02;
+@property (weak) IBOutlet NSImageView *leftimg;
+@property (weak) IBOutlet NSImageCell *leftimgcell;
 
 - (NSDictionary *) userInfo;
 - (void) targetMethod;

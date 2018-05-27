@@ -133,8 +133,8 @@
 				FB44DB0120BA07AA002028E8 /* ViewController.m */,
 				FB44DB0320BA07AC002028E8 /* Assets.xcassets */,
 				FB44DB0520BA07AC002028E8 /* Main.storyboard */,
-				FB44DB0820BA07AC002028E8 /* Info.plist */,
 				FB44DB0920BA07AC002028E8 /* main.m */,
+				FB44DB0820BA07AC002028E8 /* Info.plist */,
 				FB44DB0B20BA07AC002028E8 /* PLS.entitlements */,
 				FB6584B120BA370A00C14C8B /* img */,
 			);

@@ -24,7 +24,7 @@ int frames[10];
     NSImage *fist;
     fist = [NSImage imageNamed:@"NSColor"];
     _imgRightCell.image = fist;
-    _imgLeftCell.image = fist;
+    //_imgLeftCell.image = fist;
     
     //changes lvl of the "volume" bar
     _barVol.intValue=2;
@@ -38,7 +38,7 @@ int frames[10];
     
     NSImage *fist;
     fist = [NSImage imageNamed:@"NSColor"];
-    _imgLeft.objectValue = fist;
+    //_imgLeft.objectValue = fist;
     _imgRight.objectValue = fist;
     
     
@@ -75,7 +75,7 @@ int frames[10];
     wright = [NSImage imageNamed:@"/Users/roberthacker/Documents/GitHub/pls/PLS/img/04.svg"];
     tap = [NSImage imageNamed:@"/Users/roberthacker/Documents/GitHub/pls/PLS/img/05.svg"];
     printf("test12");
-    _imgLeft.objectValue = fist;
+    //_imgLeft.objectValue = fist;
     printf("111111");
     //_imgLeft.imageScaling;
     //leftCell->fist;
@@ -96,49 +96,49 @@ int frames[10];
    // NSLog(@"Timer fired");
     
     if(frames[0] == 1) {
-        _frame01.borderColor=[NSColor orangeColor];
+        _frame01.borderColor=[NSColor cyanColor];
     } else {
         _frame01.borderColor=[NSColor grayColor];
     }
     
     if(frames[1] == 1) {
-        _frame02.borderColor=[NSColor orangeColor];
+        _frame02.borderColor=[NSColor cyanColor];
     } else {
         _frame02.borderColor=[NSColor grayColor];
     }
     
     if(frames[2] == 1) {
-        _frame03.borderColor=[NSColor orangeColor];
+        _frame03.borderColor=[NSColor cyanColor];
     } else {
         _frame03.borderColor=[NSColor grayColor];
     }
     
     if(frames[3] == 1) {
-        _frame04.borderColor=[NSColor orangeColor];
+        _frame04.borderColor=[NSColor cyanColor];
     } else {
         _frame04.borderColor=[NSColor grayColor];
     }
     
     if(frames[4] == 1) {
-        _frame05.borderColor=[NSColor orangeColor];
+        _frame05.borderColor=[NSColor cyanColor];
     } else {
         _frame05.borderColor=[NSColor grayColor];
     }
     
     if(frames[5] == 1) {
-        _frame06.borderColor=[NSColor orangeColor];
+        _frame06.borderColor=[NSColor cyanColor];
     } else {
         _frame06.borderColor=[NSColor grayColor];
     }
     
     if(frames[6] == 1) {
-        _frame07.borderColor=[NSColor orangeColor];
+        _frame07.borderColor=[NSColor cyanColor];
     } else {
         _frame07.borderColor=[NSColor grayColor];
     }
     
     if(frames[7] == 1) {
-        _frame08.borderColor=[NSColor orangeColor];
+        _frame08.borderColor=[NSColor cyanColor];
     } else {
         _frame08.borderColor=[NSColor grayColor];
     }
